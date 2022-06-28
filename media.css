@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1000px) {
+    /*if screen width is less than 1000px*/
+    .navigation a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .heading h1{
+        font-size: 60px;
+    }
+    .rust-en-ruimte-grid{
+        grid-template-columns: 6fr 6fr;
+    }
+    .content{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    /*if screen width is less than 900px*/
+    .navigation{
+        display: none;
+    }
+    .rust-en-ruimte-grid{
+        display: block;
+    }
+    .gallerycard{
+        width: 30%;
+    }
+    #inv-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #inv-list{
+        width: 100%;
+    }
+    #inv-img-01{
+        width: 45%;
+    }
+    #inv-img-02{
+        width: 45%;
+    }
+    .beschikbaarheid-wrapper button{
+        width: fit-content;
+    }
+    .tarieven-tekst{
+        width: 100%;
+    }
+    #tarieven-tabel{
+        width: 100%;
+    }
+    .activiteit-categorie{
+        width: 100%;
+    }
+    #main-booking-form .res-form-input-small{
+        width: 25%;
+    }
+    #main-booking-form .res-form-input{
+        width: 40%;
+    }
+    .bookingmodal .modalinner{
+        width: 95%;
+    }
+    .gallerymodal .modalinner{
+        width: 70%;
+        height: fit-content;
+    }
+    .gallerymodal .mainimg{
+        height: auto;
+        width: 80%;
+    }
+    .langicon{
+        margin-left: 0;
+    }
+    .langicon a{
+        justify-content: flex-start;
+    }
+    .langicon .dropdown-content{
+        background-color: #00000000;
+        color: #000;
+    }
+    .langicon .dropdown-content a{
+        color: #000;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /*if screen width is less than 600px*/
+    .gallerycard{
+        width: 45%;
+    }
+    .section-dark{
+        padding: 10px;
+    }
+    .section-light{
+        padding: 10px;
+    }
+    .split{
+        display: block;
+    }
+    .reservation-card{
+        width: 95vw;
+    }
+    #main-booking-form .res-form-input-small{
+        width: 40%;
+    }
+    .gallerymodal .modalinner{
+        width: 85%;
+    }
+    #tarieven-tabel{
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /*if screen width is less than 480px*/
+    .heading h1{
+        font-size: 40px;
+    }
+    .content{
+        width: 100%;
+    }
+    #inv-img-01{
+        width: 100%;
+    }
+    #inv-img-02{
+        width: 100%;
+    }
+    .review_avatar{
+        display: none;
+    }
+    .review_card{
+        width: 100%;
+    }
+    #main-booking-form .res-form-input-small{
+        width: 100%;
+    }
+    #main-booking-form .res-form-input{
+        width: 100%;
+    }
+    .bookingmodal .modalinner{
+        width: 100%;
+    }
+    #btn3{
+        margin: 10px;
+    }
+    .gallerymodal .modalinner{
+        width: 100vw;
+    }
+    .gallerymodal .mainimg-wrapper{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    /*if screen width is more than 900px*/
+    .navigation-mobile{
+        display: none;
+    }
+}
