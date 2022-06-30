@@ -1,7 +1,7 @@
 dates = [];
 
 for(var i=0;i<timestamps.length;i++){
-  date = new Date(timestamps[i] * 1000).toLocaleDateString();
+  date = new Date(timestamps[i] * 1000).toLocaleDateString('nl-NL');
   dates.push(date);
 }
 
