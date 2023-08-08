@@ -48,5 +48,5 @@ $result2 = mail($email,"Bevestiging van reservering",$msg2,$headersk);//email na
 if($result == false || $result2 == false) {   
     header('Location: error.php');
 } else {
-    header('Location: http://emilevanraaij.com/chalet/bookingsuccess.php?name=' . $fname . '&period=' . $date . '&guests=' . $peopleamount . '&price=' . $price);
+    header('Location: bookingsuccess.php?name=' . $fname . '&period=' . $date . '&guests=' . $peopleamount . '&price=' . $price);
 }
